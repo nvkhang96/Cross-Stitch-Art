@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="COLOR"
+        android:id="@+id/tvColor_pixel_limit_adapter"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_weight="7"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_weight="0.5"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:layout_weight="2.5"
+        android:textAlignment="center"
+        android:id="@+id/etLimit_pixel_limit_adapter"
+        android:textSize="22sp"
+        android:inputType="number"
+        />
+
+</LinearLayout>
